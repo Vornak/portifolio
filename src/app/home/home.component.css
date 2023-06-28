@@ -1,0 +1,29 @@
+:root {
+  --darkblue: #264653;
+  --yellow: #E9C46A;
+  --lightgreen: #2A9D8F;
+  --orange: #F4A261;
+  --moreorange: #E76F51;
+}
+
+nav{
+  background-color: var(--yellow);
+}
+
+#apresentacao{
+  border-bottom: 5px red groove ;
+}
+
+#box-tecnologia{
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  margin: 10px;
+  border: 5px rgb(0, 0, 0) solid;
+}
+
+.box-tecnologias{
+  padding: 10px;
+  border: blue 1px solid;
+}
