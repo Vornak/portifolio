@@ -1,40 +1,84 @@
 <body>
-  <header>
-    <nav>
-
-      <a href="https://github.com/Vornak" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
-
-    </nav>
-  </header>
+  <nav>
+    <img src="" alt="git">
+    <img src="" alt="linkedin">
+  </nav>
 
   <main>
-    <div id="apresentacao">
+    <span id="descricao">
+      <div id="circulo-perfil"></div>
       <div>
-        <h1 id="nome">Orleandro<br>Lincoln</h1>
-        <p id="descricao">aqui vai o texto sobre mim</p>
+        <h1>Orleandro</h1>
+        <h2>Desenvolvedor Full-stack</h2>
+        <p>
+          Olá, eu tenho 18 anos e estou cursando Ciência da computação e almejo<br><p id="descricao-centro">seguir a carreira na área de tecnologia.</p>
+          Tenho familiaridade com os frameworks <strong>Angular</strong> e <strong>Spring Framework</strong>.
+        </p>
       </div>
-      <!-- ideia de passar o mouse e a foto dar fadeIn -->
-      <div>
-        <img src="#" alt="perfil" id="foto-rosto">
-      </div>
-    </div>
-    <div id="tecnologias">
-
-      <div>
-        <img src="" alt="">
-      </div>
-      <h2>Tecnologias</h2>
-
-      <!-- boxes com icone e nome da tecnologia -->
-      <div id="box-tecnologia">
-        <div class="box-tecnologias" *ngFor="let tecnologia of tecnologias">
-          <p>{{tecnologia.nome}}</p>
-        </div>
-      </div>
-    </div>
-
+    </span>
   </main>
+
+  <div id="habilidades">
+
+    <h5 id="titulo-tecnologias">Tecnologias</h5>
+
+    <div id="tecnologia">
+        <div class="tecnologias">
+          <img src="../../assets/git-icon.svg" width="50px" alt="">
+          <p>Git</p>
+        </div>
+        <div class="tecnologias">
+          <img src="../../assets/logo-javascript.svg" width="50px" alt="">
+          <p>JavaScript</p>
+        </div>
+        <div class="tecnologias">
+          <img src="../../assets/html-1.svg" width="50px" alt="">
+          <p>HTML</p>
+        </div>
+        <div class="tecnologias">
+          <img src="../../assets/css-3.svg" width="50px" alt="">
+          <p>CSS</p>
+        </div>
+        <div class="tecnologias">
+          <img src="../../assets/python-5.svg" width="50px" alt="">
+          <p>Python</p>
+        </div>
+        <div class="tecnologias">
+          <img src="../../assets/java-14.svg" width="50px" alt="">
+          <p>Java</p>
+        </div>
+        <div class="tecnologias">
+          <img src="../../assets/typescript-2.svg" width="50px" alt="">
+          <p>TypeScript</p>
+        </div>
+    </div>
+
+    <div id="framework">
+      <div class="frameworks">
+        <img src="" alt="">
+        <p>Angular</p>
+      </div>
+      <div class="frameworks">
+        <img src="" alt="">
+        <p>Spring Framework</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="carrossel">
+    <img src="" alt="a">
+    <img src="" alt="b">
+    <img src="" alt="c">
+  </div>
+
+
   <footer>
-    
+    <h3>Contato</h3>
+    <img src="" alt="a">
+    <img src="" alt="b">
+
+    <p>orleandroat@gmail.com</p>
   </footer>
+
 </body>

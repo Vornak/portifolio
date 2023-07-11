@@ -1,14 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 body{
+
+  font-family: 'Roboto Mono', monospace;
+
   padding: 0;
   margin: 0;
-
-  background-color: #264653;
 
   animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+
+  background: linear-gradient(rgba(5, 0, 255, 0.15), rgba(112, 0, 255, 0.15));
+
 }
+
+
+
 
 @keyframes fadeInAnimation {
   0% {
