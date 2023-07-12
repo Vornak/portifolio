@@ -6,12 +6,16 @@ body{
   padding: 0;
   margin: 0;
 
-  animation: fadeInAnimation ease 1.5s;
+  animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 
   background: linear-gradient(rgba(5, 0, 255, 0.15), rgba(112, 0, 255, 0.15));
 
+}
+
+img{
+  width: 80px;
 }
 
 
