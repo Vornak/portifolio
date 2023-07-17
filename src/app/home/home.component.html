@@ -2,23 +2,21 @@
   <nav>
     <div class="icon-box">
       <a href="https://github.com/Vornak" target="_blank"><img class="nav-icon" src="../../assets/github-142-svgrepo-com.svg" alt="git"></a>
-      <div class="float-border"></div>
+      <!-- <div class="float-border"></div> -->
     </div>
     <div class="icon-box">
-      <a><img class="nav-icon"  src="../../assets/49408 (1).png" alt="linkedin"></a>
-      <div class="float-border"></div>
+      <a target="_blank"><img class="nav-icon"  src="../../assets/49408 (1).png" alt="linkedin"></a>
+      <!-- <div class="float-border"></div> -->
     </div>
-
-
   </nav>
 
   <main>
     <span id="descricao">
-      <div id="circulo-perfil"></div>
+      <div id="circulo-perfil" ><img src="" alt=""></div>
       <div>
         <h1>Orleandro</h1>
-        <div id="texto-decorado">
-          <h2>Desenvolvedor_</h2><h2><p class="falha">Full-stack</p></h2>
+        <div id="texto-decorado" class="texto-escrita">
+          <h2 class="texto-animado">Desenvolvedor_</h2><h2><p class="falha">Full-stack.</p></h2>
         </div>
         <p id="sobre">
           Olá, eu tenho 18 anos e estou cursando Ciência da computação e almejo<br><p id="sobre-centro">seguir a carreira na área de tecnologia.</p>
@@ -36,39 +34,12 @@
 
   <div id="habilidades">
 
-    <div id="tecnologias">
-
       <div id="tecnologia">
-        <div class="tecnologias">
-          <img src="../../assets/git-icon.svg" alt="">
-          <p>Git</p>
-        </div>
-        <div class="tecnologias">
-          <img src="../../assets/logo-javascript.svg" alt="">
-          <p>JavaScript</p>
-        </div>
-        <div class="tecnologias">
-          <img src="../../assets/html-1.svg" alt="">
-          <p>HTML</p>
-        </div>
-        <div class="tecnologias">
-          <img src="../../assets/css-3.svg" alt="">
-          <p>CSS</p>
-        </div>
-        <div class="tecnologias">
-          <img src="../../assets/python-5.svg" alt="">
-          <p>Python</p>
-        </div>
-        <div class="tecnologias">
-          <img src="../../assets/java-14.svg" alt="">
-          <p>Java</p>
-        </div>
-        <div class="tecnologias">
-          <img src="../../assets/typescript-2.svg" alt="">
-          <p>TypeScript</p>
+        <div class="tecnologias" *ngFor="let tec of tecnologias">
+          <img src="{{tec.icon}}" alt="icone-tecnologia">
+          <p>{{tec.nome}}</p>
         </div>
       </div>
-    </div>
 
     <div id="separador"></div>
 
@@ -86,20 +57,20 @@
     </div>
   </div>
 
-
-  <div id="carrossel">
-    <img src="" alt="a">
-    <img src="" alt="b">
-    <img src="" alt="c">
+  <div id="projetos">
+    <div class="projeto-box" *ngFor="let projeto of projetos">
+      {{projeto.nome}}
+    </div>
   </div>
 
 
   <footer>
     <h3>Contato</h3>
-    <img src="" alt="a">
-    <img src="" alt="b">
+    <div>
+      <a href=""><img src="../../assets/wpp.svg" alt="a" width="50px" height="50px"></a>
+    </div>
 
-    <p>orleandroat@gmail.com</p>
+
+    <p>Email: orleandroat@gmail.com</p>
   </footer>
-
 </body>

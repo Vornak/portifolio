@@ -10,12 +10,27 @@ body{
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 
-  background: linear-gradient(rgba(5, 0, 255, 0.15), rgba(112, 0, 255, 0.15));
+  background: linear-gradient(rgba(5, 0, 255, 0.15), rgba(112, 0, 255, 0.25));
 
 }
 
 img{
   width: 80px;
+}
+
+footer{
+  background-color: #2E1D47;
+  padding: 60px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+footer p{
+  font-weight: 700;
 }
 
 

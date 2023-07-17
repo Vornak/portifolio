@@ -17,11 +17,14 @@
   margin: 10px;
   padding: 5px;
 
+
 }
+
 
 .nav-icon{
   width: 30px;
 }
+
 
 .float-border{
   background-color: black;
@@ -60,7 +63,7 @@ nav{
   color: #5E17EB;
   font-weight: 600;
 
-  animation: glitch 1s linear infinite;
+  animation: glitch 3s linear infinite;
 
 }
 
@@ -68,7 +71,7 @@ nav{
   color: black;
   font-weight: 600;
 
-  animation: glitch 1s linear infinite;
+  animation: glitch 3s linear infinite;
 
 
   font-size: 30px;
@@ -79,9 +82,6 @@ nav{
   justify-content: space-around;
 
 }
-
-
-
 
 
 @keyframes glitch {
@@ -102,15 +102,41 @@ nav{
   }
 
   100% {
-    text-shadow: 1px 1px 0 #00ffff, -1px -1px 0 #ff00ff;
+    text-shadow: -1px -1px 0 #00ffff, 1px 1px 0 #ff00ff;
   }
 }
 
+.texto-escrita {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 7px solid whitesmoke; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .005em; /* Adjust as needed */
+
+  animation:
+    typing 3.5s steps(50, end),
+    blink-caret .55s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: whitesmoke; }
+}
+
+
+
 #circulo-perfil{
+  background-color: cadetblue;
   width: 10em;
   height: 10em;
   margin: 0 30px 50px 20px;
-  background-color: rgb(139, 139, 139);
   border-radius: 50%;
 }
 
@@ -160,28 +186,7 @@ h2{
   justify-content: space-between;
 }
 
-#tecnologia{
-  width: 700px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 
-  align-items: center;
-  justify-content: center;
-
-}
-
-#tecnologias{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 500px;
-
-  margin-right: 0;
-  padding: 0;
-
-}
 
 #separador{
   margin: 0;
@@ -222,9 +227,20 @@ h2{
   justify-content: center;
 }
 
+#tecnologia{
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
 .tecnologias{
   padding: 5px;
-  margin: 40px;
+  margin: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -234,5 +250,27 @@ h2{
 
 #titulo-tecnologias{
   font-size: 30px;
+}
+
+
+#projetos{
+
+  margin: 400px;
+
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projeto-box{
+  background-color: #5E17EB;
+  border-radius:30px;
+
+  width: 400px;
+  height: 70px;
+  margin: 20px;
+  padding: 10px;
 }
 
