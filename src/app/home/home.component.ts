@@ -40,6 +40,7 @@ export class HomeComponent implements OnInit{
     {nome:'projeto1', icon:'icone', link:'#' },
     {nome:'projeto1', icon:'icone', link:'#' },
 
+
   ]
 
 
