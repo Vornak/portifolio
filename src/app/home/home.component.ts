@@ -36,11 +36,9 @@ export class HomeComponent implements OnInit{
   ]
 
   projetos: Projeto[] = [
-    {nome:'projeto1', icon:'icone', link:'#' },
-    {nome:'projeto1', icon:'icone', link:'#' },
-    {nome:'projeto1', icon:'icone', link:'#' },
-
-
+    {nome:'projeto3', icon:'icone', sobre:'texto sobre aqui', link:'#' },
+    {nome:'projeto3', icon:'icone', sobre:'texto sobre aqui', link:'#' },
+    {nome:'projeto3', icon:'icone', sobre:'texto sobre aqui', link:'#' }
   ]
 
 

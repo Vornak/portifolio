@@ -57,10 +57,20 @@
     </div>
   </div>
 
+
+
   <div id="projetos">
-    <div class="projeto-box" *ngFor="let projeto of projetos">
-      {{projeto.nome}}
+    <h5 class="falha-black">Projetos pessoais</h5>
+
+    <div id="projetos-box-div">
+      <div class="projeto-box" style="background-image: url({{projeto.icon}})" *ngFor="let projeto of projetos">
+        <div class="info-projeto">
+          <h3>{{projeto.nome}}</h3>
+          <p>{{projeto.sobre}}</p>
+        </div>
+      </div>
     </div>
+
   </div>
 
 
