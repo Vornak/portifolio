@@ -13,39 +13,65 @@
   flex-direction: column;
   align-items: center;
 
+  background: none;
 
-  margin: 10px;
+  width: 70px;
+  height: 90px;
+
+  margin: 30px 10px 0 10px;
   padding: 5px;
 
+  transition: all 0.150s ease 0.1s;
 
 }
 
+.icon-box:hover{
+  -webkit-box-shadow: 0px 0px 49px 11px rgba(59,32,117,1);
+  -moz-box-shadow: 0px 0px 49px 11px rgba(59,32,117,1);
+  box-shadow: 0px 0px 49px 11px rgba(59,32,117,1);
+
+  background-color: rgba(24, 22, 119, 0.5);
+
+  border-radius: 15px;
+
+  .float-border{
+    width: 35px;  
+
+  }
+}
 
 .nav-icon{
-  width: 30px;
+  padding: 20px 10px 0 10px;
+  width: 40px;
 }
 
 
 .float-border{
+  background: none;
   background-color: black;
   width: 27px;
   height: 5px;
 
   margin-top: 3px;
 
+  margin-bottom: 10px;
+
   border-radius: 20%;
+
+  transition: all 0.150s ease 0.1s;
 }
 
-nav{
-  background-color: #5E17EB;
 
-  height: 50px;
+
+nav{
+  height: 100px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
   padding: 3px;
+  
 }
 
 #texto-decorado{

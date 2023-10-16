@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit{
   ]
 
   projetos: Projeto[] = [
-    {nome:'CaDuck', icon:'../../assets/icon-projet-cad.svg', sobre:'Um formulário com CRUD com Spring', link:'#' },
+    {nome:'CaDuck', icon:'../../assets/icon-projet-cad.svg', sobre:'Um formulário com CRUD Spring', link:'#' },
     {nome:'projeto3', icon:'icone', sobre:'texto sobre aqui', link:'#' },
     {nome:'projeto3', icon:'icone', sobre:'texto sobre aqui', link:'#' }
   ]
