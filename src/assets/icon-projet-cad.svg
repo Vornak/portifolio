@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="1.985 0 497.353 313.433" width="710px" height="450px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="-12.06" cy="15.64" r="66.999" id="gradient-0" gradientTransform="matrix(1.548948, 1.715075, -1.700595, 1.535871, 45.656821, -0.612345)">
+      <stop offset="0" style="stop-color: rgba(198, 229, 95, 1)"/>
+      <stop offset="1" style="stop-opacity: 0; stop-color: rgb(247, 255, 0);"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.919" y="-0.382" width="499.527" height="314.723" style="stroke: rgba(117, 150, 65, 0); fill: rgb(33, 32, 32);"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+  <ellipse style="fill-opacity: 0.33; fill-rule: nonzero; stroke: rgba(95, 192, 181, 0); fill: url(#gradient-0);" cx="19.074" cy="27.999" rx="158.359" ry="164.747"/>
+  <g transform="matrix(0.11264, 0, 0, 0.118418, 7.424695, 8.487317)" style="">
+    <path style="fill: rgb(255, 230, 123); transform-box: fill-box; transform-origin: 50% 50%;" d="M 412.679 213.504 C 281.17 213.504 461.122 165.399 412.844 75.615 C 412.388 74.823 411.933 74.007 411.475 73.166 C 391.236 35.923 352.004 10.667 306.925 10.667 C 241.124 10.667 187.782 64.467 187.782 130.834 C 187.782 164.656 201.64 195.209 223.935 217.045 L 220.17 223.504 C 220.17 223.504 178.859 271.006 40.881 217.668 C -25.545 283.763 16.593 501.332 177.209 501.332 L 367.238 501.332 C 501.766 477.24 530.541 282.139 412.679 213.504 Z"/>
+    <path style="fill:#FFA233;" d="M410.316,75.615c47.974,89.784-130.846,137.889-0.164,137.889c0,0,71.844-36.868,89.826-104.167 c8.328-31.16-22.895-27.252-54.839-18.669C426.423,95.695,418.393,89.741,410.316,75.615z"/>
+  </g>
+  <rect x="166.973" y="91.642" width="175.214" height="165.021" style="fill: rgb(42, 50, 61); stroke: rgb(109, 123, 141);" rx="6.933" ry="6.933"/>
+  <rect x="179.571" y="82.116" width="59.446" height="23.604" style="fill: rgb(42, 50, 61); stroke: rgb(109, 123, 141);" rx="6.933" ry="6.933"/>
+  <rect x="179.918" y="129.602" width="70.537" height="15.631" style="fill: rgb(42, 50, 61); stroke: rgba(218, 218, 218, 0.31);" rx="1.734" ry="1.734"/>
+  <rect x="255.826" y="129.429" width="70.537" height="15.631" style="fill: rgb(42, 50, 61); stroke: rgba(218, 218, 218, 0.31);" rx="1.734" ry="1.734"/>
+  <rect x="255.48" y="154.731" width="70.537" height="15.631" style="fill: rgb(42, 50, 61); stroke: rgba(218, 218, 218, 0.31);" rx="1.734" ry="1.734"/>
+  <rect x="180.265" y="154.385" width="70.537" height="15.631" style="fill: rgb(42, 50, 61); stroke: rgba(218, 218, 218, 0.31);" rx="1.734" ry="1.734"/>
+  <rect x="182.952" y="195.205" width="8.319" height="7.972" style="fill: rgb(17, 21, 25); stroke: rgb(109, 129, 157);" rx="0.752" ry="0.752"/>
+  <rect x="194.851" y="197.019" width="27.552" height="4.326" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-opacity: 0;"/>
+  <rect x="182.921" y="206.519" width="8.319" height="7.972" style="fill: rgb(17, 21, 25); stroke: rgb(109, 129, 157);" rx="0.752" ry="0.752"/>
+  <rect x="182.84" y="218.098" width="8.319" height="7.972" style="fill: rgb(17, 21, 25); stroke: rgb(109, 129, 157);" rx="0.752" ry="0.752"/>
+  <rect x="194.848" y="208.194" width="27.552" height="4.326" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-opacity: 0;"/>
+  <rect x="194.996" y="219.476" width="27.552" height="4.326" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-opacity: 0;"/>
+  <rect x="283.779" y="229.722" width="43.216" height="16.945" style="fill: rgb(255, 247, 0); stroke: rgb(248, 186, 0);" rx="3.214" ry="3.214"/>
+</svg>

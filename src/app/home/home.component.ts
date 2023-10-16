@@ -22,8 +22,6 @@ export class HomeComponent implements OnInit{
     }
   }
 
-
-
   tecnologias: Tecnologia[] = [
     {nome:'Git', icon:'../../assets/git-icon.svg'},
     {nome:'JavaScript', icon:'../../assets/logo-javascript.svg'},
@@ -36,7 +34,7 @@ export class HomeComponent implements OnInit{
   ]
 
   projetos: Projeto[] = [
-    {nome:'projeto3', icon:'icone', sobre:'texto sobre aqui', link:'#' },
+    {nome:'CaDuck', icon:'../../assets/icon-projet-cad.svg', sobre:'Um formulário com CRUD com Spring', link:'#' },
     {nome:'projeto3', icon:'icone', sobre:'texto sobre aqui', link:'#' },
     {nome:'projeto3', icon:'icone', sobre:'texto sobre aqui', link:'#' }
   ]
